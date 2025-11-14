@@ -21,7 +21,7 @@ jobs:
         ORIGIN_HOST=${{ secrets.DATABRICKS_ORIGIN_HOST }}
         ORIGIN_TOKEN=${{ secrets.DATABRICKS_ORIGIN_TOKEN }}
         NOTEBOOK_BASE="/Workspace/Users/developer1@anadeyanirahotmail.onmicrosoft.com/sales"
-        NOTEBOOKS=("Orquestador","INGEST_SALES","SILVER","GOLDEN","Conexion-AzureSQL")  # Agrega más según necesitesas
+        NOTEBOOKS=("Orquestador","INGEST_SALES","SILVER","GOLDEN","Conexion-AzureSQL","Untitled Notebook 2025-11-13 18:46:19")  # Agrega más según necesitesas
 
         mkdir -p notebooks_to_deploy
 
